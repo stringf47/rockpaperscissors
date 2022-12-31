@@ -1,0 +1,37 @@
+<style>
+    body
+    {
+        margin: 0;
+    }
+    img
+    {
+       display: none;
+    }
+    canvas
+    {
+        z-index: -1;
+    }
+    div
+    {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        color: rgb(240, 229, 229);
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family: fantasy;
+        user-select: none;
+        font-size: 800%;
+    }
+</style>
+
+<img id = "rock" src="rock.png">
+<img id = "paper" src="paper.png">
+<img id = "scissor" src="scissor.png">
+
+<div></div>
+<canvas></canvas>
+
+<script src ="./index.js"></script>
